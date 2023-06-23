@@ -39,6 +39,7 @@ class Exp(Function):
         gx = np.exp(x) * gy
         return gx
     
+    
 if __name__ == '__main__':    
     A = Square()
     B = Exp()
